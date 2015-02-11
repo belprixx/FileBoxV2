@@ -1,0 +1,7 @@
+services:
+    dev_theo_file_box.readfile:
+        class: Dev\Theo\FileBoxBundle\Services\Readfile
+        
+    dev_theo_file_box.params:
+        class: Dev\Theo\FileBoxBundle\Services\NewParams
+        arguments: ['params.yml']

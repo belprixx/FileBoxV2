@@ -1,0 +1,4 @@
+dev_theo_file_box:
+    resource: "@DevTheoFileBoxBundle/Resources/config/routing.yml"
+    prefix:   /
+

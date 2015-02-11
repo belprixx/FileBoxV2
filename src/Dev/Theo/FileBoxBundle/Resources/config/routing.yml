@@ -1,0 +1,12 @@
+dev_theo_file_box_homepage:
+    path:     /
+    defaults: { _controller: DevTheoFileBoxBundle:Default:index }
+dev_theo_file_box_createdir:
+    path:     /create/{name}
+    defaults: { _controller: DevTheoFileBoxBundle:Default:CreateDir }
+dev_theo_file_box_getcontent:
+    path:     /get/{dir}
+    defaults: { _controller: DevTheoFileBoxBundle:Default:Getcontent }
+dev_theo_file_box_backdir:
+    path:     /backdir
+    defaults: { _controller: DevTheoFileBoxBundle:Default:GetBack }

@@ -1,0 +1,20 @@
+<ul>
+
+{% if contents is empty %}
+
+
+se dossier ne contient pas de fichier
+{% else %}
+
+{% for content in contents %}
+
+<li><a href="/get/{{ content }}">{{ content }}</a></li>
+
+{% endfor %}
+
+{% endif %}
+
+
+</ul>
+
+<a href="/backdir">  old  </a>
