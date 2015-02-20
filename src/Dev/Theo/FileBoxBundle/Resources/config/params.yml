@@ -1,2 +1,2 @@
 parameters:
-    root: { nom: ../test/tata, oldnom: ../test/tata }
+    root: { nom: ../test }

@@ -228,9 +228,9 @@ function get_download ($filename)
                 exit;
 }
  
-function get_file_content($path,$filename)
+function get_file_content($path)
 {
-    $dir = $path."/".$filename;
+    $dir = $path;
     $content = "";
     $open = fopen($dir, 'r');
     //Si on a réussi à ouvrir le fichier

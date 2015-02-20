@@ -58,8 +58,8 @@ public function GetcontentAction($dir)
         }
         else
         {
-            $contents = $this->get('dev_theo_file_box.readfile')->get_file_content($path,$dir);
-            return $this->render('DevTheoFileBoxBundle:Default:modifyfile.html.twig', array('dir' => $dir , 'contents' => $contents));
+            $contents = $this->get('dev_theo_file_box.readfile')->get_file_content($path);
+            return $this->render('DevTheoFileBoxBundle:Default:modifyfile.html.twig', array('contents' => $contents,'path'=> $path));
         }
         
     }
